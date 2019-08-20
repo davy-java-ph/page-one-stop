@@ -1,14 +1,17 @@
 {
   "name": "page-one-stop",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "多页面应用优化一条龙，压缩，合并，指纹，转换",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "bin": {
+    "page-one-stop": "index.js"
+  },
+  "keywords": ["md5","uglify","optimization"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "clean-css": "^4.2.1",

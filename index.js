@@ -41,12 +41,6 @@ del(config.output)
     return handle(files);
 });
 
-/*readFile('C:\\Users\\davy\\IdeaProjects\\ssr\\html\\github.html').then(text => {
-
-    new TextHelper(text, false).findUrlList();
-
-});*/
-
 
 
 
